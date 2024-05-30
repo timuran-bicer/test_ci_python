@@ -3,7 +3,7 @@ class LimiteCacahueteAtteinte(Exception):
 
 
 class Cacahuete(object):
-    def __init__(self, montant_initial=150):
+    def __init__(self, montant_initial=100):
         self.montant = montant_initial
 
     def manger(self, quantite):
