@@ -8,8 +8,12 @@ def string_capital(mon_texte):
 
 
 def divide(x, y):
-    return x/y
+    return x / y
 
 
 def string_to_array(texte):
     return texte.split(',')
+
+
+def return_1():
+    return 1
