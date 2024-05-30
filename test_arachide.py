@@ -38,6 +38,7 @@ def test_arachide_max_achat_500(cacahuete_100):
 @pytest.mark.parametrize("manger,achetter,attendu", [
     (30, 10, 80),
     (100, 2, 2),
+    (100, 10, 10),
 ])
 def test_transactions(cacahuete_100, manger, achetter, attendu):
     cacahuete_100.manger(manger)
